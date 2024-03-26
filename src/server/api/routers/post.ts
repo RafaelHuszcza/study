@@ -7,7 +7,7 @@ import {
 } from "@/server/api/trpc";
 
 export const postRouter = createTRPCRouter({
-  hello: publicProcedure
+  hello: publicProcedure.meta({ openapi: { method: 'GET', path: '/hello' } })
     .input(z.object({ text: z.string() }))
     .query(({ input }) => {
       return {

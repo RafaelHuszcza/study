@@ -1,0 +1,138 @@
+{
+  "auth": {
+    "components": {
+      "magic-link-form": {
+        "label": "Email",
+        "submit-button": "Enviar Link",
+        "email-placeholder": "Digite seu email",
+        "z": {
+          "invalid-email": "Email inválido"
+        },
+        "toast": {
+          "success": {
+            "title": "Email enviado com sucesso",
+            "description": "Cheque sua caixa de entrada"
+          },
+          "error": {
+            "title": "Erro ao enviar email",
+            "description": "Ocorreu um erro. Por favor tente novamente"
+          }
+        }
+      },
+      "keycloak-form": {
+        "email": "Email",
+        "password": "Senha",
+        "submit-button": "Entrar",
+        "email-placeholder": "Digite seu email",
+        "z": {
+          "invalid-email": "Email inválido",
+          "invalid-password": "Senha inválida"
+        },
+        "toast": {
+          "success": {
+            "title": "Email enviado com sucesso",
+            "description": "Cheque sua caixa de entrada"
+          },
+          "error": {
+            "title": "Erro ao enviar email",
+            "description": "Ocorreu um erro. Por favor tente novamente"
+          }
+        }
+      },
+      "auth-form": {
+        "github": "Entrar com Github",
+        "google": "Entrar com Google",
+        "email": "Entrar com Email",
+        "email-password": "Entrar com Email e Senha",
+        "title": "Entrar"
+      }
+    }
+  },
+  "app": {
+    "components": {
+      "todo-data-table": {
+        "title": "Lista de Tarefas",
+        "actions": {
+          "title": "Ações",
+          "menu": "Abrir Menu",
+          "copy": "Copiar Id",
+          "done": "Marcar como concluído",
+          "delete": "Deletar"
+        },
+        "columns": {
+          "title": "Título",
+          "createdAt": "Data de Criação",
+          "status": "Status"
+        },
+        "status": {
+          "waiting": "Pendente",
+          "done": "Concluído"
+        },
+        "empty": "Nenhuma tarefa encontrada",
+        "next": "Próxima página",
+        "previous": "Página anterior"
+      },
+      "todo-upsert-sheet": {
+        "z": {
+          "title-required": "Título é obrigatório"
+        },
+        "label": "Título",
+        "title": "Criar/Editar Tarefa",
+        "title-placeholder": "Digite o título da tarefa",
+        "status": {
+          "title": "Status",
+          "waiting": "Pendente",
+          "done": "Concluído"
+        },
+        "submit-button": "Salvar",
+        "cancel-button": "Cancelar",
+        "toast": {
+          "success": {
+            "title": "Tarefa criada",
+            "description": "Tarefa criada com sucesso"
+          },
+          "error": {
+            "title": "Erro ao criar tarefa",
+            "description": "Ocorreu um erro ao criar a tarefa. Por favor tente novamente"
+          }
+        }
+      }
+    }
+  },
+  "api": {
+    "todos": {
+      "toast": {
+        "delete": {
+          "error": {
+            "title": "Erro ao deletar tarefa",
+            "description": "Ocorreu um erro ao deletar a tarefa. Por favor tente novamente"
+          },
+          "success": {
+            "title": "Tarefa deletada",
+            "description": "Tarefa deletada com sucesso"
+          }
+        },
+        "update": {
+          "error": {
+            "title": "Erro ao atualizar tarefa",
+            "description": "Ocorreu um erro ao atualizar a tarefa. Por favor tente novamente"
+          },
+          "success": {
+            "title": "Tarefa atualizada",
+            "description": "Tarefa atualizada com sucesso"
+          }
+        },
+        "create": {
+          "error": {
+            "title": "Erro ao criar tarefa",
+            "description": "Ocorreu um erro ao criar a tarefa. Por favor tente novamente"
+          },
+          "success": {
+            "title": "Tarefa criada",
+            "description": "Tarefa criada com sucesso"
+          }
+        }
+      }
+    }
+  }
+}
